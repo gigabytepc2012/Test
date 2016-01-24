@@ -1,0 +1,7 @@
+PAGES:
+
+LOG IN.PHP
+LOG OUT.PHP
+ADMIN.PHP - redirect when admin acc, can insert tuition values for school year
+HOMEPAGE.PHP - redirect when user acc log in, manage student records and payments
+INSERT.PHP - php function for studentreg.php
