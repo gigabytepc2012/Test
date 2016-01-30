@@ -19,7 +19,7 @@ $sql="INSERT INTO tbl_tuition (sy, entrance,tuition,misc)
 VALUES
 ('$_POST[txtSY]','$_POST[txtEntrance]','$_POST[txtTuition]','$_POST[txtMisc]')";
  
-if (!mysql_query($sql,$con))
+if (!mysql_query($sql))
   {
   die('Error: ' . mysql_error());
   }

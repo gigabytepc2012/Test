@@ -1,8 +1,7 @@
 <?php
-mysql_connect('localhost','root','');
-mysql_select_db('cpsdb');
+require 'lib/functions.php';
+checkIfLoggedin();
 ?>
-
 <!DOCTYPE HTML>
 <html>
 <head>

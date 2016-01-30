@@ -1,7 +1,3 @@
-<?php
-mysql_connect('localhost','root','');
-mysql_select_db('cpsdb');
-?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -9,16 +5,16 @@ mysql_select_db('cpsdb');
 <a href="../login.php">Back</a>
 <body>
 
-<form action="php/action_tuition.php" method="POST">
+<form action="../php/action_register.php" method="POST">
 <fieldset>
 <legend>Form</legend>
 
 Username:<br />
 <input type="text" name="txtUser" value="">
 <br />Password:<br />
-<input type="text" name="txtPass">
+<input type="password" name="txtPass">
 <br />Confirm Password:<br />
-<input type="text" name="txtConfirm">
+<input type="password" name="txtConfirm">
 <br />Full Name:<br />
 <input type="text" name="txtFullname">
 <br />Email:<br />
